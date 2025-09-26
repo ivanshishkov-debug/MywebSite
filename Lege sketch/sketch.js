@@ -10,6 +10,7 @@ function setup() {
 }
 
 function draw() {
+  text("X:"+ mouseX+" "+ "Y"+mouseY,10,40)
   strokeWeight(1)
   background(200);
   fill("red");
